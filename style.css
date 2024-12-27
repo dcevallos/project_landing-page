@@ -8,7 +8,6 @@
     padding: 0;
     line-height: 1.5;
 }
-
 body {
     font-family: "Roboto", serif;
 }
@@ -37,3 +36,22 @@ body {
     font-weight: 700;
     font-style: normal;
   }
+.logo {
+    font-size: 1.7rem;
+}
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
