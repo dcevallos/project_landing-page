@@ -40,7 +40,6 @@ header {
     margin: 0 auto;
     flex: 1;
     padding: 20px 0;
-    border: 1px solid red;
 }
 .hero_section {
     height: 70vh;
