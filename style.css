@@ -54,7 +54,7 @@ header {
     width: 50%;
 }
 .wrapper_right-side {
-    background-color: #b5bfca;
+    background-color: #E5E7EB;
     height: 50%;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ h1 {
     border: none;
 }
 .image {
-    color: #F9FAF8;
+    color: #1F2937;
 }
 .information_section {
     height: 60vh;
@@ -143,12 +143,14 @@ h2 {
     font-size: 2rem;
     font-weight: 300;
     font-style: italic;
+    color: #1F2937;
 
 }
 .signature {
     font-size: 1.3rem;
     font-weight: 700;
     align-self: flex-end;
+    color: #1F2937;
 }
 .cta_section {
     display: flex;
@@ -185,5 +187,14 @@ h3 {
     font-size: 1rem;
     border: 2px solid #F9FAF8;
 }
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #1F2937;
+}
+p {
+    color: #F9FAF8;
+}
 
