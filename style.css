@@ -84,7 +84,7 @@ h1 {
 .image {
     color: #F9FAF8;
 }
-.information {
+.information_section {
     height: 60vh;
     display: flex;
 }
@@ -94,25 +94,24 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    flex: 1;
     max-width: 1200px;
     margin: 0 auto;
 }
 h2 {
     margin-top: 60px;
-    margin-bottom: 50px;
     font-size: 2rem;
 }
 .wrapper_boxes {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-around;
     width: 90%;
+    padding: 50px 0;
 }
 .wrapper_boxes_text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
     gap: 10px;
 }
 .blue_boxes {
@@ -128,4 +127,27 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     width: 20ch;
+}
+.quote_section {
+    height: 60vh;
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.wrapper_quote {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.quote_text {
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.signature {
+    font-size: 1.3rem;
+    font-weight: 700;
+    align-self: flex-end;
 }
