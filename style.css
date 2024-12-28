@@ -78,7 +78,7 @@ h1 {
     color: #E5E7EB;
     font-size: 1rem;
     font-weight: 700;
-    border-radius: 12px;
+    border-radius: 10px;
     border: none;
 }
 .image {
@@ -138,16 +138,52 @@ h2 {
     width: 90%;
     display: flex;
     flex-direction: column;
-    padding: 50px;
 }
 .quote_text {
     font-size: 2rem;
     font-weight: 300;
     font-style: italic;
-    
+
 }
 .signature {
     font-size: 1.3rem;
     font-weight: 700;
     align-self: flex-end;
 }
+.cta_section {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+.wrapper_cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+h3 {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+}
+.cta_text {
+    color: #F9FAF8;
+}
+.secondary_button {
+    margin: 0;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #F9FAF8;
+}
+
+
